@@ -13,7 +13,7 @@ To that end, we built a tool that is capable of segmenting students' essays into
 
 We decided to approach the issue as a token classification problem - like NER (Named Entity Recognition) or POS (Part-of-Speech tagging). Then, as this is a fairly developed subset of NLP methods, we leveraged an existing, pre-trained token classification model ([BigBird](https://huggingface.co/google/bigbird-roberta-base)) and fine-tuned it to the task of argumentative component classification for automated essay feedback. 
 
-We preprocessed and restructured our [original dataset](https://www.kaggle.com/competitions/feedback-prize-2021/data) to better fit the training loop needs of our particular fine-tuning [Trainer code](./notebooks/trainer.ipynb). Then, we make extensive use of HuggingFace's token classification, transfer-learning, and transformer training infrastructure to perform our fine-tuning.
+We preprocessed and restructured our [original dataset](https://www.kaggle.com/competitions/feedback-prize-2021/data) to better fit the training loop needs of our particular fine-tuning [Trainer code](./notebooks/trainer.ipynb). Then, we make extensive use of HuggingFace's token classification, transfer-learning, and transformer training infrastructure to perform our fine-tuning, where we obtained a >90% accuracy in training.
 
 All the code can be found under `notebooks/`. The preprocessing code is located in [`preprocessing.ipynb`](./notebooks/preprocessing.ipynb), the trainer code is located in [`trainer.ipynb`](./notebooks/trainer.ipynb), and the visualization tool's code can be found in [`argumentor.ipynb`](./notebooks/argumentor.ipynb).
 
