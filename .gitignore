@@ -162,3 +162,5 @@ cython_debug/
 # CUSTOM: Ignore dataset
 /data/*
 /notebooks/model/*
+/notebooks/model_test/*
+/notebooks/wandb/*
