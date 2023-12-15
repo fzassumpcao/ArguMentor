@@ -29,6 +29,6 @@ An automated text segmentation and classifier tool for argumentative essays.
 
 ## Presentation
 
-[YouTube Link]
+[YouTube Link](https://youtu.be/a7W2KMcyKBk)
 
 [Slides Link](https://docs.google.com/presentation/d/1zOMqR2grHXHj_SGosKBUKWW62ps-3E26CLlUTzd1Mcc/edit?usp=sharing)
